@@ -4,7 +4,7 @@ const categories = ['All', 'Kids', 'Birthday', 'Anniversary'];
 // Example product data with links to Flipkart, Amazon, and Meesho
 const products = [
     {
-        name: 'Creative Kids Activity & Coloring Sheets - 100 Sheets of Fun for Children',
+        name: 'Creative Kids Activity & Coloring Sheets',
         image: './images/catalogue_1.jpg',
         description: '100 pages of A5 size (5.8" X 8.3")',
         category: 'Kids',
@@ -22,7 +22,7 @@ const products = [
         meesho: 'https://meesho.com/exercise-book-for-kids--worksheets/p/7aqz8w?_ms=1.2'
     },
     {
-        name: '100 sheets of Coloring and Calculation Sheets for kids of age 4yr+',
+        name: 'Coloring and Calculation Sheets',
         image: './images/catalogue_3.jpg',
         description: '100 pages of A5 size (5.8" X 8.3")',
         category: 'Kids',
@@ -67,7 +67,7 @@ function loadProducts(filteredProducts = products) {
         const cardBody = document.createElement('div');
         cardBody.className = 'card-body';
 
-        const h5 = document.createElement('h5');
+        const h5 = document.createElement('h6');
         h5.className = 'card-title';
         h5.innerText = product.name;
 
