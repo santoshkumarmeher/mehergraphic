@@ -98,7 +98,7 @@ function loadProducts(filteredProducts = products) {
         const meeshoBtn = document.createElement('a');
         meeshoBtn.href = product.meesho;
         meeshoBtn.target = '_blank';
-        meeshoBtn.className = 'btn btn-success';
+        meeshoBtn.className = 'btn btn-danger';
         meeshoBtn.innerText = 'Buy on Meesho';
 
         // Append buttons to button group
