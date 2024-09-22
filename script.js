@@ -54,7 +54,7 @@ function loadProducts(filteredProducts = products) {
     catalogue.innerHTML = ''; // Clear previous content
     filteredProducts.forEach(product => {
         const productItem = document.createElement('div');
-        productItem.className = 'col-md-4 product-item';
+        productItem.className = 'col-6 col-lg-3 product-item';
 
         const card = document.createElement('div');
         card.className = 'card';
