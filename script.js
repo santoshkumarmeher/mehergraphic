@@ -13,7 +13,7 @@ const products = [
         meesho: 'https://meesho.com/creative-kids-activity--coloring-sheets---100-sheets-of-fun-for-children/p/77aw9w?_ms=1.2'
     },
     {
-        name: 'Exercise Book For Kids | Worksheets',
+        name: 'Exercise Sheets For Kids',
         image: './images/catalogue_2.jpg',
         description: '100 pages of A5 size (5.8" X 8.3")',
         category: 'Kids',
