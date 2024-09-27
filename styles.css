@@ -15,3 +15,20 @@ body {
 .product-item:hover {
     transform: translateY(-5px);
 }
+
+.product-heading {
+    border: 3px solid black; /* Custom border color and width */
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+
+
+
+/* Default style for desktop */
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+
+}
