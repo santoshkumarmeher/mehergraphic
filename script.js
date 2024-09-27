@@ -31,7 +31,7 @@ const products = [
         meesho: 'https://meesho.com/100-sheets-of-coloring-and-calculation-sheets-for-kids-of-age-4yr/p/7b9ab7?_ms=1.2'
     },
     {
-        name: 'Preschool Worksheet 36pages',
+        name: 'Preschool Worksheet 72pages',
         image: './images/catalogue_4.jpg',
         description: '72 pages of A5 size (5.8" X 8.3")',
         category: 'Kids',
