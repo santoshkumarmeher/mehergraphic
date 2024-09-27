@@ -4,8 +4,26 @@ const categories = ['All', 'Kids', 'Birthday', 'Anniversary'];
 // Example product data with links to Flipkart, Amazon, and Meesho
 const products = [
     {
-        name: 'Activity & Coloring Sheets',
+        name: 'Preschool Worksheet 108pages | Activity worksheet',
         image: './images/catalogue_1.jpg',
+        description: '108 pages of A5 size (5.8" X 8.3")',
+        category: 'Kids',
+        flipkart: 'https://www.flipkart.com/product-3',
+        amazon: 'https://www.amazon.com/product-3',
+        meesho: 'https://meesho.com/preschool-worksheet-100pages--activity-worksheet/p/7e0tk8?_ms=1.2'
+    },
+    {
+        name: 'Preschool Worksheet 72pages',
+        image: './images/catalogue_2.jpg',
+        description: '72 pages of A5 size (5.8" X 8.3")',
+        category: 'Kids',
+        flipkart: 'https://www.flipkart.com/product-3',
+        amazon: 'https://www.amazon.com/product-3',
+        meesho: 'https://meesho.com/preschool-worksheet-36pages/p/7e0vtq?_ms=1.2'
+    },
+    {
+        name: 'Activity & Coloring Sheets',
+        image: './images/catalogue_3.jpg',
         description: '100 pages of A5 size (5.8" X 8.3")',
         category: 'Kids',
         flipkart: 'https://www.flipkart.com/product-1',
@@ -14,7 +32,7 @@ const products = [
     },
     {
         name: 'Exercise Sheets For Kids',
-        image: './images/catalogue_2.jpg',
+        image: './images/catalogue_4.jpg',
         description: '100 pages of A5 size (5.8" X 8.3")',
         category: 'Kids',
         flipkart: 'https://www.flipkart.com/product-2',
@@ -23,31 +41,15 @@ const products = [
     },
     {
         name: 'Coloring and Calculation Sheets',
-        image: './images/catalogue_3.jpg',
+        image: './images/catalogue_5.jpg',
         description: '100 pages of A5 size (5.8" X 8.3")',
         category: 'Kids',
         flipkart: 'https://www.flipkart.com/product-3',
         amazon: 'https://www.amazon.com/product-3',
         meesho: 'https://meesho.com/100-sheets-of-coloring-and-calculation-sheets-for-kids-of-age-4yr/p/7b9ab7?_ms=1.2'
     },
-    {
-        name: 'Preschool Worksheet 72pages',
-        image: './images/catalogue_4.jpg',
-        description: '72 pages of A5 size (5.8" X 8.3")',
-        category: 'Kids',
-        flipkart: 'https://www.flipkart.com/product-3',
-        amazon: 'https://www.amazon.com/product-3',
-        meesho: 'https://meesho.com/preschool-worksheet-36pages/p/7e0vtq?_ms=1.2'
-    },
-    {
-        name: 'Preschool Worksheet 108pages | Activity worksheet',
-        image: './images/catalogue_5.jpg',
-        description: '108 pages of A5 size (5.8" X 8.3")',
-        category: 'Kids',
-        flipkart: 'https://www.flipkart.com/product-3',
-        amazon: 'https://www.amazon.com/product-3',
-        meesho: 'https://meesho.com/preschool-worksheet-100pages--activity-worksheet/p/7e0tk8?_ms=1.2'
-    }
+
+
 ];
 
 // Function to display categories
