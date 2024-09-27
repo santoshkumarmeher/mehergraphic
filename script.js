@@ -4,7 +4,7 @@ const categories = ['All', 'Kids', 'Birthday', 'Anniversary'];
 // Example product data with links to Flipkart, Amazon, and Meesho
 const products = [
     {
-        name: 'Preschool Worksheet 108pages | Activity worksheet',
+        name: 'Preschool Worksheet 108pages',
         image: './images/catalogue_1.jpg',
         description: '108 pages of A5 size (5.8" X 8.3")',
         category: 'Kids',
