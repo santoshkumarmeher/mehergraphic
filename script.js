@@ -48,6 +48,15 @@ const products = [
         amazon: 'https://www.amazon.com/product-3',
         meesho: 'https://meesho.com/100-sheets-of-coloring-and-calculation-sheets-for-kids-of-age-4yr/p/7b9ab7?_ms=1.2'
     },
+    {
+        name: 'NEW BORN BABY GIFT | Memory | Personalized Gift',
+        image: './images/catalogue_6.jpg',
+        description: 'A4 Size',
+        category: 'Birthday',
+        flipkart: 'https://www.flipkart.com/product-3',
+        amazon: 'https://www.amazon.com/product-3',
+        meesho: 'https://meesho.com/new-born-baby-gift-memory--personalized-gift/p/7ce1th?_ms=1.2'
+    },
 
 
 ];
